@@ -1,0 +1,314 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------
+         Naviagtion menu
+   -----------------------------*/
+.nav-menu{
+    list-style: none;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px;
+    padding-bottom: 40px;
+    background-color: #fcd1d1 ;
+}
+
+.nav-menu li{
+    float: right;
+    display: inline;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu li a{
+    color:#004040 ;
+    padding: 10px ;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover{
+    background-color: rgb(232, 199, 127);
+    transition: ease-in-out 0.5s;
+}
+
+/*------------------------
+            LOGO
+  -----------------------*/
+.logo{
+    float: left;
+    list-style: none;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+.logo h1:hover{
+    color: goldenrod;
+    transition: ease 0.5s;
+}
+
+/*--------------------
+        Home Page
+  --------------------*/
+
+.hero{
+    background-image: url('/fresh-start/Images/hero-bg.jpg');
+    margin-top: 5px;
+    height: 500px;
+    width: 100%; 
+}
+
+.hero h1{
+    /*font-size: 60px;*/
+    padding-top: 150px;     
+    text-align: center ;
+    margin-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+}
+.hero h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.ab{
+    margin-left: 680px;
+    text-decoration: none;
+}
+
+.gs a{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18PX;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #fc9a9f;
+    transition:  ease-in-out 0.5s;
+    margin: 20px;
+    margin-left: 670px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.gs a:hover{
+    background-color: #fc9a9fd0;
+    transition: ease-in-out 0.5s;
+}
+
+/*-------------------------
+            About
+  -------------------------*/
+
+#main{
+    width: 1400px;
+    height: 600px;
+    margin: 50px auto; 
+    margin-top: -100px;
+    border: 5px outset black ;
+    border-radius: 40px;
+    background-color: #fcd1d1;
+    font-family: Verdana,sans-serif;
+}
+
+#main img{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    width:550px;
+    height: 450px;
+}
+
+#main h1{
+    font-size: xx-large ;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+#main .content{
+    margin-left: 610px;
+    margin-right: 20px;
+    padding-left: 10px;
+    
+}
+
+.content{
+    background-color:#fee4e4 ;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 750px;
+    height: 450px;
+}
+
+.content h3{
+    margin-top: 30px;
+}
+
+.content p{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .F-Ita{
+    font-style  : italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*----------------------
+        Services
+  ----------------------*/
+
+.services{
+    background-image: url('/fresh-start/Images/Cherry-Blossom.jpg');
+    height: 600px;
+    width: auto;
+}
+
+.services h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding-top:25px ;
+    padding-bottom: 25px;
+}
+
+.r-w{
+    background-color: #f4bbff ;
+    width: 950px;
+    height: 330px;
+    border: 2px solid black;
+    border-radius: 22px;
+    margin: 20px auto; 
+    padding-top: 30px;
+}
+
+.col-1{
+    width: 440px;
+    height: 100px;
+    margin-left: 30px;
+    background-color: #eee8aa;
+    border: 2px solid black;
+    border-radius: 9px;
+}   
+
+.col-2{
+    width: 440px;
+    height: 100px;
+    background-color: #eee8aa;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin-left: 470px;
+    margin-top: -5px;
+}
+
+.col-3{
+    width: 440px;
+    height: 100px;
+    background-color: #eee8aa;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title a{
+    text-decoration: none;
+    color: #ec4049;
+}
+.description{
+    text-align: center;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+
+/*---------------------
+        Footer
+  ---------------------*/
+
+#footer{
+    background: #060404;
+    padding: 40px 0 0px 0;
+    color: #fff;
+    font-size: 14px;
+    width:100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.R1{
+    text-align: left;
+    font-size: large;
+    width:250px ;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+.R2{
+    text-align: left;
+    font-size: large;
+    width:250px ;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.R2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.R2 li{
+    margin-top: 15px;
+}
+
+.R3{
+    text-align: left;
+    font-size: large;
+    width:250px ;
+    margin-left: 100px;
+}
+
+.R4{
+    text-align: left;
+    font-size: large;
+    width:250px ;
+    margin-left: 100px;
+}
+
+/*-------------------------
+        Last Stuff
+  -------------------------*/
+
+.Last .copyright{
+    text-align: center;
+    font-size: large;
+    background-color: rgb(225, 143, 143);
+    color: black;
+}
+
+.Last .credits{
+    text-align: center;
+    font-size: large;
+    background-color: #2f4f4f ;
+    color: white;
+}
+
+.credits a{
+    color: aqua;
+    text-decoration: none;
+}
